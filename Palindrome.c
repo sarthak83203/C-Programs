@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int r,a;
+    int r;
+    int a;
     int sum=0;
     scanf("%d",&a);
     int mm=a;
@@ -8,10 +9,12 @@ int main(){
         r=a%10;
         sum=sum*10+r;
         a=a/10;
-        printf("%d",sum);
-        
-
-        
-
+    
     }
+    if(mm==sum){
+        printf("Yes its Palindrome");
+       }else{
+        printf("No its not an Palindrome");
+       }
+       return 0;
 }
