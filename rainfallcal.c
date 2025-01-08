@@ -9,7 +9,7 @@ int main(){
         sum=sum+array[i];
     }int max=array[0];
     int min=array[0];
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(array[i]>max){
             max=array[i];
         }
