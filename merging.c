@@ -16,7 +16,7 @@ int main(){
     j=0;
     k=0;
     while(i<n && j<w){
-        if(arr1[i]<=arr2[i]){
+        if(arr1[i]<=arr2[j]){
             merge[k++]=arr1[i++];
 
         }
@@ -24,10 +24,13 @@ int main(){
             merge[k++]=arr2[j++];
         }
     }
+    //ADDING OTHER ELEMENTS
     while(i<n){
         merge[k++]=arr1[i++];
-
+        
     }
+    //ADDING OTHER ELEMENTS
+
     while(j<w){
          merge[k++]=arr2[j++];
 
