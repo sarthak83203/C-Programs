@@ -7,7 +7,7 @@ int main(){
 
 }
 void Slicing(char str[],int m,int n){
-    char newstr[100];
+    char newstr[100]; // made an new String
     int j=0;
     for(int i=m;i<=n;i++,j++){
         newstr[j]=str[i];         //New String also have an index so newString index is j
