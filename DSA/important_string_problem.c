@@ -56,7 +56,7 @@ int main(){
     char name[n];
     
     for(int i=0;i<n;i++){
-        scanf(" %c",&name[i]);
+        scanf(" %c",&name[i]); //Here we have taken space before %c The reason is "To ignore white space,nextLine etc".
     }
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
